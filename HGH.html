@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy GreenHouse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Happy GreenHouse</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" src="imagenes/car.svg" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>Bienvenido a nuestra tienda</span>
+                <h1>Ofertas especiales</h1>
+                <p>
+                    Ven y encuentra con nosotros la mejor calidad de productos en el mercado, tenemos a los mejores agricultoresy una variedad extensa de productos que ofrecerte.
+                </p>
+                <div class="butons">
+                    <a href="#" class="btn-1">Informacion</a>
+                    <a href="#" class="btn-1">Leer mas</a>
+                </div>
+            </div>
+            <div class="header-img">
+                <img src="imagenes/bag.png" alt="">
+            </div>
+        </div>
+
+    </header>
+    <section class="oferts container">
+        <div class="ofert-1 b1">
+            <div class="ofert-txt">
+                <h3>¡Tenemos variedad en frutas y verduras!</h3>
+                <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="imagenes/s1.png" alt="">
+            </div>
+        </div>
+        <div class="ofert-1 b2">
+            <div class="ofert-txt">
+                <h3>¡Los mejores consejos para mantenerse saludable!</h3>
+                <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="imagenes/s2.png" alt="">
+            </div>
+        </div>
+        <div class="ofert-1 b3">
+            <div class="ofert-txt">
+                <h3>!Calidad maxima en nuestros productos lacteos¡</h3>
+                <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="imagenes/s3.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <main class="products container">
+
+        <h2>Productos</h2>
+
+        <div class="box container" id="lista-1">
+
+            <div class="box">
+                <img src="imagenes/pr1.png" alt="">
+                <div class="product-txt">
+                    <h3>Leche de soya Ades</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$70</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr2.png" alt="">
+                <div class="product-txt">
+                    <h3>Fresas Liozz Natura</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$100</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr3.png" alt="">
+                <div class="product-txt">
+                    <h3>Larin cero azucar</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$15</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr4.png" alt="">
+                <div class="product-txt">
+                    <h3>Leche Ades: JUva</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$75</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr5.png" alt="">
+                <div class="product-txt">
+                    <h3>CarlosV ccero azucar</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr6.png" alt="">
+                <div class="product-txt">
+                    <h3>Veggi Chips</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$50</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr7.png" alt="">
+                <div class="product-txt">
+                    <h3>Gamesa Cookies</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$100</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr8.png" alt="">
+                <div class="product-txt">
+                    <h3>SC Leche entera</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$80</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr9.png" alt="">
+                <div class="product-txt">
+                    <h3>Arandanos Xiocolat</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$150</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="9">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr10.png" alt="">
+                <div class="product-txt">
+                    <h3>Masapán CRUNCH</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$70</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="10">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr11.png" alt="">
+                <div class="product-txt">
+                    <h3>Maiz La Costeña</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$80</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="11">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="imagenes/pr12.png" alt="">
+                <div class="product-txt">
+                    <h3>Chips Asanitas</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">$110</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="12">
+                        Agregar al carrito
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        
+    </main>
+
+    <section class="testimonio container">
+        <span>Testimoniales</span>
+        <h2>Que opinen nuestros clientes</h2>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>
+                    Son productos de excelente calidad se conservan bien y son saludables, es un precio accesecible y no te decepcionara ningun item del catalogo !Se ha vuelto mi nueva tienda de confianza para mercar¡
+                </p>
+                <img src="imagenes/starts.png" alt="">
+                <h4>Claudia Cuao</h4>
+            </div>
+            <div class="testimonial-1">
+                <p>
+                    Aparte de sus productos de excelente calidad el servicio al cliente es de lo mejor no dudan en recomendarte las mejores opciones de su catalogo de venta y explicarte lo que sea que nececites !Recomiendo mucho esta tienda¡
+                </p>
+                <img src="imagenes/starts.png" alt="">
+                <h4>Erica Rodriguez</h4>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Instagram</h3>
+                <ul>
+                    <li><a href="#">@Happy_GreenHouse</a></li>
+                    <li><a href="#">@Happy_GreenHouseCOL</a></li>
+                    <li><a href="#">@Happy_GreenHouseEU</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Numeros</h3>
+                <ul>
+                    <li><a href="#">3006667788</a></li>
+                    <li><a href="#">3006667788</a></li>
+                    <li><a href="#">3006667788</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Facebook</h3>
+                <ul>
+                    <li><a href="#">Happy GreenHouse</a></li>
+                    <li><a href="#">Happy GreenHouseCOL</a></li>
+                    <li><a href="#">Happy GreenHouseEU</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Direcciones</h3>
+                <ul>
+                    <li><a href="#">595 Kayla Spring</a></li>
+                    <li><a href="#">6089 Parque Ismael</a></li>
+                    <li><a href="#">Travessera Trujillo, 322, 41º A</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
